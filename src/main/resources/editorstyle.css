@@ -1,0 +1,42 @@
+.styled-text-area {
+    -fx-background-color: #121E31;
+}
+
+.styled-text-area .text {
+    -fx-fill: white;
+    -fx-font-family: "Consolas";
+    -fx-font-size: 14px;
+}
+
+.styled-text-area .caret {
+    -fx-stroke: white;
+}
+
+.styled-text-area .matchhighlight {
+    -fx-fill: white;
+    -rtfx-background-color: #008F2F;
+}
+
+.contextmenu {
+    -fx-font-family: "Consolas";
+    -fx-font-size: 12px;
+    -fx-text-fill: black;
+    -rtfx-background-color: ghostwhite;
+}
+
+.defaultregex {
+    -fx-font-family: "Consolas";
+    -fx-font-size: 13px;
+}
+
+.lineno .text {
+    -fx-font-size: 12px;
+    -fx-fill: black;
+    -fx-font-style: italic;
+}
+
+.button {
+    -fx-font-size: 11px;
+    -fx-padding: 5;
+    -fx-min-width: 60;
+}
