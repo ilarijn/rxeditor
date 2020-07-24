@@ -2,6 +2,8 @@
 
 Simple text editor with the option to store and apply regular expressions and generate CSV data and SQL insert statements using regex.
 
+Originally created as part of a University of Helsinki Software Engineering course in Spring 2019.
+
 ### Getting Started
 
 Clone this repository and run `./gradlew run` or download the jar release.
