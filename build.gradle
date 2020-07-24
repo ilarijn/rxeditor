@@ -20,6 +20,17 @@ javafx {
     modules = [ 'javafx.controls', 'javafx.swing' ]
 }
 
+jar {
+    manifest {
+        attributes 'Main-Class': 'rxeditor.Main'
+    }
+}
+
+tasks.withType(JavaCompile).all {
+    options.compilerArgs.add("-Xlint:unchecked")
+}
+
+
 application {
     mainClassName = 'rxeditor.Main'
 }
